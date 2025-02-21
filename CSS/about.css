@@ -1,0 +1,340 @@
+.aboutcurosalimg{
+    width: 100%;
+    height: 500px;
+    background-image: url('../IMAGES/aboutmainimg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagename{
+    color: coral;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 100px;
+}
+.aboutstore{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutstore-inside{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutstore-inside-left{
+    width: 50%;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+.aboutstore-inside-right{
+    width: 50%;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url('../IMAGES/hardware_stores.jpg');
+}
+.aboutstore-inside-left h2{
+    padding-top: 20px;
+    color: coral;
+    text-align: center;
+}
+.aboutstore-inside-left p{
+    line-height: 30px;
+    padding: 30px;
+}
+
+
+
+.aboutstore1{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutstore-inside1{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutstore-inside-left1{
+    width: 50%;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-image: url('../IMAGES/hardware_stores1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.aboutstore-inside-right1{
+    width: 50%;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.aboutstore-inside-right1 h2{
+    padding-top: 20px;
+    color: coral;
+    text-align: center;
+}
+.aboutstore-inside-right1 p{
+    line-height: 30px;
+    padding: 30px;
+}
+
+.aboutquality{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutquality h1{
+    color: coral;
+    text-align: center;
+}
+.aboutquality-inside{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inside-left,.inside-middle,.inside-right{
+    width: 30%;
+    height: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.content{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+.content h2{
+    padding-top: 20px;
+}
+.content p{
+    padding-top: 20px;
+    line-height: 28px;
+}
+
+.client-reviews{
+    width: 100%;
+    height: 450px;
+    background-image: url('../IMAGES/diy-tools.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.client-transparent{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.client-testmonials{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+}
+.client-transparent h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.next-btn:not(.client-testmonials){
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.prev-btn:not(.client-testmonials){
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.next-btn{
+    margin-left: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .prev-btn{
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .feedback{
+    width: 80%;
+    height: 50%;
+    margin-top: auto;
+    margin: auto;
+    overflow: hidden;
+  }
+  .feedback p{
+    color: white;
+    font-weight: bolder;
+    line-height: 30px;
+  }
+  .feedback h4{
+    color: white;
+    font-weight: bolder;
+    line-height: 30px;
+  }
+  .pagination {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .pagination-btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  .pagination-btn.active {
+    width: 20px; /* Increase size of active button */
+    height: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: white;
+  }
+  
+  .pagination-btn:hover {
+    background-color: #ddd;
+  }
+  
+
+  .leftmove6,.leftmove7,.leftmove8{
+    opacity: 0;
+    transform: translateX(-100px); 
+    transition: opacity 1s ease, transform 1s ease;
+  }
+    .leftmove6.visible,.leftmove7.visible,.leftmove8.visible{
+    opacity: 1;
+    transform: translateX(0); 
+  }
+  .rightmove6,.rightmove7,.rightmove8{
+    opacity: 0; 
+    transform: translateX(100px); 
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .rightmove6.visible,  .rightmove7.visible,  .rightmove8.visible{
+    opacity: 1;
+    transform: translateX(0); 
+  }
+  .bottommove1{
+    opacity: 0; 
+    transform: translateY(100px); 
+    transition: opacity 1s ease, transform 1s ease;
+  }
+
+  .bottommove1.visible{
+    opacity: 1;
+    transform: translateY(0); 
+  }
+
+  @media (max-width:769px){
+    .aboutstore-inside-left,.aboutstore-inside-right{
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .aboutstore-inside-left1{
+      background-size: cover;
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .aboutstore-inside-right1{
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .inside-left,.inside-middle,.inside-right{
+      width: 60%;
+      margin-top: 20px;
+      overflow: hidden;
+    }
+    .aboutstore,.aboutstore1,.aboutquality{
+      overflow: hidden;
+    }
+  }
+
+  @media (max-width:426px){
+    .aboutcurosalimg{
+      background-size: contain;
+      height: 250px;
+    }
+    .pagename{
+      font-size: 60px;
+    }
+    .aboutstore-inside-left{
+      width: 100%;
+      height: auto;
+    }
+    .aboutstore-inside-right{
+      width: 100%;
+    }
+    .aboutstore-inside-left1{
+      width: 100%;
+    }
+    .aboutstore-inside-right1{
+      width: 100%;
+      height: auto;
+    }
+    .inside-left,.inside-middle,.inside-right{
+      width: 100%;
+     height: 520px;
+    }
+    .client-reviews,.client-transparent{
+      width: 100%;
+      height: 650px;
+    }
+    .client-testmonials{
+      width: 90%;
+      height: 80%;
+      padding-top: 0px;
+    }
+    .feedback {
+      width: 80%;
+      height: 50%;
+      margin-top: 0%;
+      margin: auto;
+      overflow: hidden;
+  }
+  .feedback p{
+    line-height: 25px;
+  }
+  .feedback h4{
+    line-height: 10px;
+  }
+  }
+
+  @media (max-width:376px){
+    .pagename{
+      margin-top: 0px;
+      font-size: 50px;
+    }
+    .aboutstore-inside,.aboutstore-inside1{
+      width: 90%;
+    }
+  }

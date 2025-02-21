@@ -1,0 +1,258 @@
+.top-navbar{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+}
+.top-logo img{
+    padding-left: 80px;
+}
+.top-nav{
+    width: 90%;
+}
+.dropdown-menu{
+    background-color:gray !important;
+}
+.navbar-nav{
+    padding-left: 100px;
+}
+.nav-link{
+    padding-right: 30px !important;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;
+}
+.dropdown-item{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-fb a,.top-goggle a,.top-insta a,.top-youtube a{
+    color: white;
+}
+.top-contact{
+    color: white;
+    font-weight: bolder;
+}
+.top-contact a:not(.top-fb){
+  padding-left: 20px;
+}
+.top-contact:not(.top-goggle,.top-insta,.top-youtube){
+    padding-left: 50px;
+}
+
+
+
+/* footer */
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+.footer {
+padding: 50px 0px 0px;
+/* background-color: #030a16; */
+background-color: gray;
+}
+
+
+.footer .widget1 p {
+font-size: 16px;
+/* color: rgba(255, 255, 255, .6); */
+color: white;
+margin-top: 26px;
+}
+
+.footer .socialLinks {
+margin-top: 28px;
+}
+
+.socialLinks ul li {
+display: inline-block;
+}
+
+
+.socialLinks ul li a i {
+display: block;
+margin: 0 2px;
+width: 40px;
+height: 40px;
+background: #fafafa;
+border-radius: 50%;
+text-align: center;
+margin-right: 5px;
+line-height: 40px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.socialLinks ul li a .fa-facebook-f {
+color: #4267b2;
+}
+
+.socialLinks ul li a .fa-twitter {
+color: #1da1f2;
+}
+
+.socialLinks ul li a .fa-google-plus-g {
+color: #dd5044;
+}
+
+.socialLinks ul li a .fa-linkedin-in {
+color: #0177b5;
+}
+
+
+.socialLinks ul li a:hover i {
+color: #fff;
+}
+
+.socialLinks ul li a:hover .fa-facebook-f {
+background: #4267b2;
+}
+
+.socialLinks ul li a:hover .fa-twitter {
+background: #1da1f2;
+}
+
+.socialLinks ul li a:hover .fa-google-plus-g {
+background: #dd5044;
+}
+
+.socialLinks ul li a:hover .fa-linkedin-in {
+background: #0177b5;
+}
+footer .logo {
+max-width: 200px;
+}
+
+.footer h5 {
+font-weight: 500;
+margin-bottom: 28px;
+text-transform: capitalize;
+font-weight: 600;
+color: #fff;
+font-size: 21px
+}
+
+
+.footer .widget2  p {
+/* font-size: 16px; */
+/* color: rgba(255, 255, 255, .8);; */
+color: white;
+
+font-weight: bolder;
+line-height: 26px;
+}
+.widget2{
+    margin-left: 40px;
+}
+/* .footer-call i{
+    color: white;
+    font-weight: bolder;
+} */
+
+.fas {
+    padding-right: 10px;
+}
+.footer .widget3 ul li a,
+.footer .widget4 ul li a {
+font-size: 16px;
+/* color: rgba(255, 255, 255, .6);; */
+color: white;
+text-transform: capitalize;
+margin-bottom: 13px;
+display: block;
+}
+
+.footer .widget3 ul li a:hover,
+.footer .widget4 ul li a:hover{
+color: #ffb606;
+}
+
+.footer .widget3 h5 {
+margin-bottom: 22px;
+font-weight: 600;
+color: #fff;
+font-size: 21px;
+line-height: 32px;
+}
+
+.footer .widget4 h5 {
+margin-bottom: 22px;
+font-weight: 600;
+color: #fff;
+font-size: 21px;
+}
+
+.copyRightArea {
+margin-top: 83px;
+border-top: 1px solid rgba(255, 255, 255, 0.2);
+padding: 25px 0px 28px;
+}
+
+.copyRightArea p {
+color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width:769px){
+    .widget2{
+        margin-left: 0px;
+    }
+    .d-flex{
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    .top-phone{
+        margin-left: 30px;
+    }
+    .widget3,.widget4{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:426px){
+    .widget2{
+        margin-top: 20px;
+    }
+}

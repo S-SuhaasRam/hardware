@@ -1,0 +1,122 @@
+.lightstopimg{
+    width: 100%;
+    height: 500px;
+    background-image: url('../IMAGES/wiresimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lightspagename{
+    color: coral;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 100px;
+}
+.lightspage{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px; 
+    row-gap: 50px;
+    margin-top: 20px;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(to bottom, white 30%, coral 30%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px; 
+    margin: 0 auto 10px; 
+}
+.card p{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+.card h2{
+    color: white;
+}
+.lightanime{
+    width: 20%;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: coral;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.bulbon-off{
+    width: 100px;
+    height: 180px;
+}
+.lightanime p{
+    color: white;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+
+
+@media (max-width:769px){
+    .lightstopimg{
+        background-size: contain;
+        height: 450px;
+    }
+    .lightspagename{
+        margin-top: 0px;
+    }
+    .card{
+        width: 280px;
+    }
+    .lightspagename{
+        font-size: 80px;
+    }
+    .lightanime{
+        width: 40%;
+    }
+}
+
+@media (max-width:426px){
+    .lightstopimg{
+        height: 300px;
+    }
+    .lightspagename{
+        font-size: 80px;
+    }
+    .card{
+        width: 300px;
+    }
+    .lightanime{
+        width: 70%;
+    }
+}
+
+@media (max-width:376px){
+    .lightstopimg{
+        height: 250px;
+    }
+    .lightspagename{
+        font-size: 60px;
+    }
+    .lightanime{
+        width: 80%;
+    }
+}
